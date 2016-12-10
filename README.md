@@ -1,4 +1,4 @@
-# equi-libra
+# equi-libra :libra:
 
 Motivation is to bring variance generating scheme like bootstrap and gibbs to same scale 
 
