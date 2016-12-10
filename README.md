@@ -1,5 +1,5 @@
 # equi-libra :libra:
-![](http://cdn.astrology-zodiac-signs.com/images/Libra-w.png)<sup id="a1">[1](#f1)</sup>
+!(http://cdn.astrology-zodiac-signs.com/images/Libra-w.png)<sup id="a1"></sup>
 
 Motivation is to bring variance generating scheme like bootstrap and gibbs to same scale 
 
