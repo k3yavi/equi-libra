@@ -1,0 +1,570 @@
+The system is: Linux - 4.4.0-45-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/linuxbrew/.linuxbrew/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/3.6.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/linuxbrew/.linuxbrew/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/3.6.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5dd2/fast"
+make[3]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b5dd2.dir/build.make CMakeFiles/cmTC_b5dd2.dir/build
+make[4]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5dd2.dir/testCCompiler.c.o
+/home/linuxbrew/.linuxbrew/bin/cc     -o CMakeFiles/cmTC_b5dd2.dir/testCCompiler.c.o   -c /mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b5dd2
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.6.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5dd2.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/cc       CMakeFiles/cmTC_b5dd2.dir/testCCompiler.c.o  -o cmTC_b5dd2 -rdynamic 
+make[4]: Leaving directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f4111/fast"
+make[3]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f4111.dir/build.make CMakeFiles/cmTC_f4111.dir/build
+make[4]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4111.dir/CMakeCCompilerABI.c.o
+/home/linuxbrew/.linuxbrew/bin/cc     -o CMakeFiles/cmTC_f4111.dir/CMakeCCompilerABI.c.o   -c /home/linuxbrew/.linuxbrew/Cellar/cmake/3.6.2/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_f4111
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.6.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4111.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/cc      -v CMakeFiles/cmTC_f4111.dir/CMakeCCompilerABI.c.o  -o cmTC_f4111 -rdynamic  
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/cc
+COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0  --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-5 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-system-zlib --enable-libstdcxx-time=yes --enable-stage1-checking --enable-checking=release --enable-lto --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew gcc 5.3.0' --with-bugurl=https://github.com/Homebrew/homebrew/issues --enable-plugin --disable-nls --disable-multilib
+Thread model: posix
+gcc version 5.3.0 (Homebrew gcc 5.3.0) 
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f4111' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLy8jBY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib -o cmTC_f4111 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTC_f4111.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+make[4]: Leaving directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f4111/fast"]
+  ignore line: [make[3]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f4111.dir/build.make CMakeFiles/cmTC_f4111.dir/build]
+  ignore line: [make[4]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f4111.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/linuxbrew/.linuxbrew/bin/cc     -o CMakeFiles/cmTC_f4111.dir/CMakeCCompilerABI.c.o   -c /home/linuxbrew/.linuxbrew/Cellar/cmake/3.6.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_f4111]
+  ignore line: [/home/linuxbrew/.linuxbrew/Cellar/cmake/3.6.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4111.dir/link.txt --verbose=1]
+  ignore line: [/home/linuxbrew/.linuxbrew/bin/cc      -v CMakeFiles/cmTC_f4111.dir/CMakeCCompilerABI.c.o  -o cmTC_f4111 -rdynamic  ]
+  ignore line: [Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/specs]
+  ignore line: [COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0  --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-5 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-system-zlib --enable-libstdcxx-time=yes --enable-stage1-checking --enable-checking=release --enable-lto --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew gcc 5.3.0' --with-bugurl=https://github.com/Homebrew/homebrew/issues --enable-plugin --disable-nls --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.3.0 (Homebrew gcc 5.3.0) ]
+  ignore line: [COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f4111' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLy8jBY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib -o cmTC_f4111 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTC_f4111.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccLy8jBY.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [--dynamic-linker] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/lib/ld.so] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/lib] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f4111] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o] ==> ignore
+    arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0]
+    arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../..] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../..]
+    arg [-L/home/linuxbrew/.linuxbrew/lib] ==> dir [/home/linuxbrew/.linuxbrew/lib]
+    arg [CMakeFiles/cmTC_f4111.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0]
+  collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../..] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib]
+  collapse library dir [/home/linuxbrew/.linuxbrew/lib] ==> [/home/linuxbrew/.linuxbrew/lib]
+  implicit libs: [c]
+  implicit dirs: [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0;/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib;/home/linuxbrew/.linuxbrew/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3a2d7/fast"
+make[3]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3a2d7.dir/build.make CMakeFiles/cmTC_3a2d7.dir/build
+make[4]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a2d7.dir/feature_tests.c.o
+/home/linuxbrew/.linuxbrew/bin/cc    -std=c11 -o CMakeFiles/cmTC_3a2d7.dir/feature_tests.c.o   -c /mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3a2d7
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.6.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a2d7.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/cc       CMakeFiles/cmTC_3a2d7.dir/feature_tests.c.o  -o cmTC_3a2d7 -rdynamic 
+make[4]: Leaving directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c5630/fast"
+make[3]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c5630.dir/build.make CMakeFiles/cmTC_c5630.dir/build
+make[4]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5630.dir/feature_tests.c.o
+/home/linuxbrew/.linuxbrew/bin/cc    -std=c99 -o CMakeFiles/cmTC_c5630.dir/feature_tests.c.o   -c /mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c5630
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.6.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5630.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/cc       CMakeFiles/cmTC_c5630.dir/feature_tests.c.o  -o cmTC_c5630 -rdynamic 
+make[4]: Leaving directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07f6c/fast"
+make[3]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_07f6c.dir/build.make CMakeFiles/cmTC_07f6c.dir/build
+make[4]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07f6c.dir/feature_tests.c.o
+/home/linuxbrew/.linuxbrew/bin/cc    -std=c90 -o CMakeFiles/cmTC_07f6c.dir/feature_tests.c.o   -c /mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_07f6c
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.6.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07f6c.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/cc       CMakeFiles/cmTC_07f6c.dir/feature_tests.c.o  -o cmTC_07f6c -rdynamic 
+make[4]: Leaving directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7244/fast"
+make[3]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c7244.dir/build.make CMakeFiles/cmTC_c7244.dir/build
+make[4]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c7244.dir/testCXXCompiler.cxx.o
+/home/linuxbrew/.linuxbrew/bin/c++      -o CMakeFiles/cmTC_c7244.dir/testCXXCompiler.cxx.o -c /mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_c7244
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.6.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7244.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/c++        CMakeFiles/cmTC_c7244.dir/testCXXCompiler.cxx.o  -o cmTC_c7244 -rdynamic 
+make[4]: Leaving directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0de5/fast"
+make[3]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d0de5.dir/build.make CMakeFiles/cmTC_d0de5.dir/build
+make[4]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d0de5.dir/CMakeCXXCompilerABI.cpp.o
+/home/linuxbrew/.linuxbrew/bin/c++      -o CMakeFiles/cmTC_d0de5.dir/CMakeCXXCompilerABI.cpp.o -c /home/linuxbrew/.linuxbrew/Cellar/cmake/3.6.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_d0de5
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.6.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0de5.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/c++       -v CMakeFiles/cmTC_d0de5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d0de5 -rdynamic  
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/c++
+COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0  --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-5 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-system-zlib --enable-libstdcxx-time=yes --enable-stage1-checking --enable-checking=release --enable-lto --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew gcc 5.3.0' --with-bugurl=https://github.com/Homebrew/homebrew/issues --enable-plugin --disable-nls --disable-multilib
+Thread model: posix
+gcc version 5.3.0 (Homebrew gcc 5.3.0) 
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d0de5' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaNcUUq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib -o cmTC_d0de5 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTC_d0de5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+make[4]: Leaving directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d0de5/fast"]
+  ignore line: [make[3]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d0de5.dir/build.make CMakeFiles/cmTC_d0de5.dir/build]
+  ignore line: [make[4]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d0de5.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/linuxbrew/.linuxbrew/bin/c++      -o CMakeFiles/cmTC_d0de5.dir/CMakeCXXCompilerABI.cpp.o -c /home/linuxbrew/.linuxbrew/Cellar/cmake/3.6.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_d0de5]
+  ignore line: [/home/linuxbrew/.linuxbrew/Cellar/cmake/3.6.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0de5.dir/link.txt --verbose=1]
+  ignore line: [/home/linuxbrew/.linuxbrew/bin/c++       -v CMakeFiles/cmTC_d0de5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d0de5 -rdynamic  ]
+  ignore line: [Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/specs]
+  ignore line: [COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0  --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-5 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-system-zlib --enable-libstdcxx-time=yes --enable-stage1-checking --enable-checking=release --enable-lto --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew gcc 5.3.0' --with-bugurl=https://github.com/Homebrew/homebrew/issues --enable-plugin --disable-nls --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.3.0 (Homebrew gcc 5.3.0) ]
+  ignore line: [COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d0de5' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaNcUUq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib -o cmTC_d0de5 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTC_d0de5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/libexec/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccaNcUUq.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [--dynamic-linker] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/lib/ld.so] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/lib] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d0de5] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o] ==> ignore
+    arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0]
+    arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../..] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../..]
+    arg [-L/home/linuxbrew/.linuxbrew/lib] ==> dir [/home/linuxbrew/.linuxbrew/lib]
+    arg [CMakeFiles/cmTC_d0de5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0]
+  collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../..] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib]
+  collapse library dir [/home/linuxbrew/.linuxbrew/lib] ==> [/home/linuxbrew/.linuxbrew/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0;/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/home/linuxbrew/.linuxbrew/Cellar/gcc/5.3.0/lib;/home/linuxbrew/.linuxbrew/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98a31/fast"
+make[3]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_98a31.dir/build.make CMakeFiles/cmTC_98a31.dir/build
+make[4]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98a31.dir/feature_tests.cxx.o
+/home/linuxbrew/.linuxbrew/bin/c++     -std=c++14 -o CMakeFiles/cmTC_98a31.dir/feature_tests.cxx.o -c /mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_98a31
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.6.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98a31.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/c++        CMakeFiles/cmTC_98a31.dir/feature_tests.cxx.o  -o cmTC_98a31 -rdynamic 
+make[4]: Leaving directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a6399/fast"
+make[3]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a6399.dir/build.make CMakeFiles/cmTC_a6399.dir/build
+make[4]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a6399.dir/feature_tests.cxx.o
+/home/linuxbrew/.linuxbrew/bin/c++     -std=c++11 -o CMakeFiles/cmTC_a6399.dir/feature_tests.cxx.o -c /mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a6399
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.6.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6399.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/c++        CMakeFiles/cmTC_a6399.dir/feature_tests.cxx.o  -o cmTC_a6399 -rdynamic 
+make[4]: Leaving directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c1b06/fast"
+make[3]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c1b06.dir/build.make CMakeFiles/cmTC_c1b06.dir/build
+make[4]: Entering directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c1b06.dir/feature_tests.cxx.o
+/home/linuxbrew/.linuxbrew/bin/c++     -std=c++98 -o CMakeFiles/cmTC_c1b06.dir/feature_tests.cxx.o -c /mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c1b06
+/home/linuxbrew/.linuxbrew/Cellar/cmake/3.6.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1b06.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/c++        CMakeFiles/cmTC_c1b06.dir/feature_tests.cxx.o  -o cmTC_c1b06 -rdynamic 
+make[4]: Leaving directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

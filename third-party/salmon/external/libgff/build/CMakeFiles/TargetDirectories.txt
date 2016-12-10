@@ -1,0 +1,8 @@
+/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/install.dir
+/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/list_install_components.dir
+/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/rebuild_cache.dir
+/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/edit_cache.dir
+/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/gff.dir
+/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/TestGFFParse.dir
+/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/install/strip.dir
+/mnt/scratch7/avi/test/shoal-paper/third-party/salmon/external/libgff/build/CMakeFiles/install/local.dir
