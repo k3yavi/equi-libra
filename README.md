@@ -1,7 +1,7 @@
 # equi-libra :libra:
 ![](http://cdn.astrology-zodiac-signs.com/images/Libra-w.png)<sup id="a1"></sup>
 
-Motivation is to bring variance generating scheme like bootstrap and gibbs to same scale 
+Motivation is to bring variance generating scheme like bootstrap and gibbs to same scale or ask question are they really same??
 
 #To-do:
 ###Saturday -Sunday:
