@@ -13,6 +13,6 @@ Motivation is to bring variance generating scheme like bootstrap and gibbs to sa
 1. [x] Separate Alphas with each gibbs sample.
 2. [x] Parse these files 
 3. [x] check for signals in one Cluster
-3. Do the same for multiple samples.
+3. [x] Do the same for multiple samples.
 4. Design bootstrap to handle variance.
 5. Use different metrics for the paper.
