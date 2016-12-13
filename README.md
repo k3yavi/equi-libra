@@ -17,10 +17,10 @@ Motivation is to bring variance generating scheme like bootstrap and gibbs to sa
 4. Design bootstrap to handle variance.
 5. Use different metrics for the paper.
 
-- [] Monday
-- [] Tuesday
-- [] Wednesday
-- [] Thursday
-- [] Friday
-- [] Saturday
-- [] Sunday
+- [ ] Monday
+- [ ] Tuesday
+- [ ] Wednesday
+- [ ] Thursday
+- [ ] Friday
+- [ ] Saturday
+- [ ] Sunday
