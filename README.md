@@ -20,8 +20,7 @@ Motivation is to bring variance generating scheme like bootstrap and gibbs to sa
 
 Reading/Writing week 13-18
 
-- [ ] Tuesday
-- [ ] Wednesday
+- [X] Wednesday: was not very productive, But going through important chapter from Tibshirai's
 - [ ] Thursday
 - [ ] Friday
 - [ ] Saturday
