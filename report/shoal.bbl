@@ -1,0 +1,37 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Patro et~al.(2016)Patro, Duggal, Love et~al.}]{Patro2016Salmon}
+R.~Patro, G.~Duggal, M.~I. Love et~al.
+\newblock {Salmon provides accurate, fast, and bias-aware transcript expression
+  estimates using dual-phase inference}.
+\newblock \emph{bioRxiv}, 2016.
+\newblock \doi{10.1101/021592}.
+\newblock \urlprefix\url{http://biorxiv.org/content/early/2016/08/30/021592}.
+
+\bibitem[{Kim et~al.(2015)Kim, Lim, Lee et~al.}]{kim2015comprehensive}
+W.~J. Kim, J.~H. Lim, J.~S. Lee et~al.
+\newblock {Comprehensive analysis of transcriptome sequencing data in the lung
+  tissues of COPD subjects}.
+\newblock \emph{International journal of genomics}, 2015, 2015.
+
+\bibitem[{Frazee et~al.(2015)Frazee, Jaffe, Langmead
+  et~al.}]{Frazee2015Polyester}
+A.~C. Frazee, A.~E. Jaffe, B.~Langmead et~al.
+\newblock {Polyester: simulating RNA-seq datasets with differential transcript
+  expression}.
+\newblock \emph{Bioinformatics}, 31(17):2778--2784, 2015.
+
+\bibitem[{Turro et~al.(2011)Turro, Su, Gon{\c{c}}alves et~al.}]{Turro2011mmseq}
+E.~Turro, S.-Y. Su, {\^A}.~Gon{\c{c}}alves et~al.
+\newblock {Haplotype and isoform specific expression estimation using
+  multi-mapping RNA-seq reads}.
+\newblock \emph{Genome biology}, 12(2):1, 2011.
+
+\end{thebibliography}

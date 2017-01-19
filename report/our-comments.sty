@@ -1,0 +1,27 @@
+% !TEX root =  paper.tex
+
+
+% defining some new colors :-)
+\usepackage{xcolor}
+\definecolor{magenta4}{rgb}{0.5625,0,0.5625}
+\definecolor{green4}{rgb}{0,0.5625,0}
+\definecolor{orange4}{rgb}{0.98,0.31,0.09}
+
+% \newcommand{\fixme}[1]{{\bf\textcolor{red}{ [ FIXME: #1 ]}}}
+
+\newcommand{\fixme}[1]{{\ifcomments \scriptsize \textcolor{green4}{FIXME: {#1}} \fi}}
+
+\newcommand{\mike}[1]{{\ifcomments \scriptsize \textcolor{blue}{Mike: {#1}} \fi}}
+
+\newcommand{\avi}[1]{{\ifcomments \scriptsize \textcolor{magenta4}{Avi: {#1}} \fi}}
+
+\newcommand{\rob}[1]{{\ifcomments \scriptsize \textcolor{red}{Rob: {#1}} \fi}}
+
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "energy-backoff"
+%%% End: 
+
+%  LocalWords:  scalable
