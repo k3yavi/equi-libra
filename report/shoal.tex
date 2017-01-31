@@ -77,38 +77,7 @@
 
 \begin{document}
 \bibliographystyle{truncnat}
-\title{{Shoal: Current Progress on Empirical adaptive priors improve transcript abundance estimates in multi-sample RNA-seq data}\\ \bigskip}
-\date{}
 
-\maketitle
-\widowpenalty=1
-\clubpenalty=1
-
-\section{}
-
-\section{Current Plan}
-\begin{itemize}
-	\item Open Questions
-		\begin{itemize}
-			\item Isolator or any other tool in the comparison.
-			\item simulation of reads is based on EM based approach, should we simulate using VBEM?
-			\item learn parameter C adaptively or from multiple run of shoal.
-			\item Sensitivity analysis for parameter C (MITIE would be good starting point)
-		\end{itemize}
-	\item Analysis
-	\begin{itemize}
-		\item RSEM, kallisto, MITIE, flipflop comparison
-		\item Use DeSeq statistics instead of t-tests.
-	\end{itemize}
-	\item Writing
-	\begin{itemize}
-		\item No other tools have done the same thing (make it explicit).
-		\item Single Sample hypothesis correction again make it explicit.
-		\item TP and FN are relative, should make a comments or two.
-		\item typo correction on Page3
-		\item Define more about why use minimum phi in equivalence class relation.
-	\end{itemize}
-\end{itemize}
 
 
 
@@ -125,7 +94,6 @@
 \maketitle
 \widowpenalty=1
 \clubpenalty=1
-\setcounter{section}{0}
 
 %~\citep{Glaus2012BitSeq}.
 \section{Motivation}
@@ -251,5 +219,41 @@ differential expression analysis is another awesome!!! ;p application.
   \end{subfigure}
   \caption{Unused figures in the doc.}
 \end{figure*}
+
+\title{{Shoal: Current Progress on Empirical adaptive priors improve transcript abundance estimates in multi-sample RNA-seq data}\\ \bigskip}
+\date{}
+
+\maketitle
+\widowpenalty=1
+\clubpenalty=1
+\setcounter{section}{0}
+
+\section{}
+
+\section{Current Plan}
+\begin{itemize}
+	\item Open Questions
+		\begin{itemize}
+			\item Isolator or any other tool in the comparison.
+			\item simulation of reads is based on EM based approach, should we simulate using VBEM?
+			\item learn parameter C adaptively or from multiple run of shoal.
+			\item Sensitivity analysis for parameter C (MITIE would be good starting point)
+		\end{itemize}
+	\item Analysis
+	\begin{itemize}
+		\item RSEM, kallisto, MITIE, flipflop comparison
+		\item Use DeSeq statistics instead of t-tests.
+	\end{itemize}
+	\item Writing
+	\begin{itemize}
+		\item No other tools have done the same thing (make it explicit).
+		\item Single Sample hypothesis correction again make it explicit.
+		\item TP and FN are relative, should make a comments or two.
+		\item typo correction on Page3
+		\item Define more about why use minimum phi in equivalence class relation.
+	\end{itemize}
+\end{itemize}
+
+
 \bibliography{shoal}
 \end{document}
