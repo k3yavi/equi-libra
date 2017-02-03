@@ -228,24 +228,29 @@ differential expression analysis is another awesome!!! ;p application.
 \clubpenalty=1
 \setcounter{section}{0}
 
-\section{Motivation:} Differential transcript expression is a challenging task in an RNA-seq experiment specially because of the 
-presence of variance in the estimated abundances of the transcripts at multiple level in the upstream process of quantification.
-Current state-of-the art quantification tools like Salmon/kallisto does an important task of quantification which is used down-stream
-by the various differetianl expression analysis tools. Errors in the the differential expression analysis usually comes due to
+\section{Motivation:} Differential transcript expression is a challenging task in an RNA-seq experiment especially because of the 
+presence of variance in the estimated abundances of the transcripts at multiple levels in the upstream process of quantification.
+Current state-of-the-art quantification tools like Salmon/kallisto does an important task of quantification which is used downstream
+by the various differential expression analysis tools. Errors in the differential expression analysis usually come due to
 type I errors (High False positive) and type II errors (High False Negative). 
 
-With the decrease in the cost of Rna-Seq experiments multi-condition/multi-replicate data is readily available. The idea of using 
-multi-condition data for differential expression analysis and recover from most of the type I erros with non-sginificant increase 
+With the decrease in the cost of Rna-Seq experiments, multi-condition/multi-replicate data is readily available. The idea of using 
+multi-condition data for differential expression analysis and recover from most of the type I error with a non-significant increase 
 in the type II error has been explored deeply by many differential expression tools like Limma voom, DeSeqII. The hypothesis 
 being if we imagine the empirical distribution of the abundances of the transcripts across replicates then to test for
-differential expression we have compare each transcripts withing replicate distribution across multiple condition and if we 
-can statistically differentiate (like t-test) between these two distribution then we can call a transcript differentially expressed.
+the differential expression we have to compare each transcripts withing replicate distribution across multiple conditions and if we 
+can statistically differentiate (like t-test) between this two distribution then we can call a transcript differentially expressed.
 
-In the above situation, typtically type I errors would be beacuse of the distributions being too far apart and our differential
+In the above situation, typically type I errors would be because of the distributions being too far apart and our differential
 expression method is able to draw a line between them to separate them. Recent differential expression tools use multi-replicate/
-condition data to correct these error by shrinking. Specifically these tools works on the assumption that transcripts from one
-gene would be expressed with similar abundancess across sample and shrinks the abundances towards the mean to account for errors.
-Simply, in our example 
+condition data to correct these error by shrinking. Specifically, these tools work on the assumption that transcripts from one
+gene would be expressed with similar abundance across the sample and shrinks the abundances towards the mean to account for errors.
+Simply, in our example, we can imagine intelligently shrinking the distribution towards each other so that our differential expression
+the method is not able to differentiate the two distributions.
+
+Although the above process works well in the current settings but the performance of the shrinkage after quantification would have
+already introduced some of the uncertainty in the analysis. In this paper we propose to shrink the estimate intelligently in the
+quantification process itself i.e. we use multi-condition abundance estimates as the prior to calculating per sample transcript abundance. 
 
 
 \section{Current Plan:}
@@ -271,6 +276,8 @@ Simply, in our example
 		\item Define more about why use minimum phi in equivalence class relation.
 	\end{itemize}
 \end{itemize}
+
+\section{Results:}
 
 
 \bibliography{shoal}
