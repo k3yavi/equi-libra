@@ -278,6 +278,11 @@ quantification process itself i.e. we use multi-condition abundance estimates as
 \end{itemize}
 
 \section{Results:}
+Shoal first run Salmon on each sample separately and learn prior using transcript abundances across all samples. Later, Shoal runs Salmon's modified VBEM algorithm for quantification on each sample with the learnt prior, more details can be found in Arxiv paper (have to upload). First we compare the TPM estimates of all the transcript in one sample before and after performing inter-sample prior enhancement. As shown in (figure `befAft.png`) we observe substantial difference in the abundances specifically below 1 TPM. In short using prior enhancement on VBEM based estimation see significant improvemnt in the ROC curve for the simulated data. 
+
+To validate the performance we have to compare our method to currently available but the catch was all the current methods are EM based methods, to make the comparison fair we need to run our tool on EM algorithm. On using prior directly (i.e. non-adaptive way) on shoal with Salmon EM optimization shockingly doesn't improve the performance and we dig deeper and compared the estimates in one sample for real and simualated data as shown in (figure real_realize.png and simulated_realize.png). Although deeper analysis on Real data is still needed but, interestingly in simulated data we observe that EM's estimate is highly sparsified which in turn was closer to truth while our flat VBEM algorithm due to it's liberal nature tends to give very small TPM's to transcript with special pattern and using prior enhancement on top makes the results sparser and much closer to EM. Which resulted in belief that prior enhanced VBEM is sparsifying the data which can be already be achieved modestly by EM already(w/o any prior) and makes our claim for using inter-sample information in the current form weaker.
+
+
 
 
 \bibliography{shoal}
